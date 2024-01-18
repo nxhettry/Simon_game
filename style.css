@@ -1,0 +1,43 @@
+body{
+    background-color: #0b3155;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+.container h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin: 5%;
+    color: whitesmoke;
+}
+.boxes{
+    border: 10px solid grey;
+    border-radius: 20%;
+    height: 200px;
+    width: 200px;
+    margin: 2em;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+.wrong{
+    background-color: red;
+    opacity: 0.6;
+}
